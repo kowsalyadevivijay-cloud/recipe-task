@@ -1,0 +1,29 @@
+# 🍳 Recipe Management REST API
+
+A fully functional CRUD application for managing recipes, built using **Node.js**, **Express.js**, and **MongoDB (Mongoose)** following the **MVC (Model-View-Controller)** architectural pattern.
+
+## 🚀 Tech Stack
+* **Runtime:** Node.js
+* **Framework:** Express.js
+* **Database:** MongoDB & Mongoose
+* **API Testing & Docs:** Postman
+
+
+## 📌 API Endpoints
+
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| **GET**    |   `/api/recipes`     | Retrieve all recipes |
+| **GET**    |   `/api/recipes/:id` | Retrieve a single recipe by ID |
+| **POST**   |   `/api/recipes`     | Create a new recipe |
+| **PUT**    |   `/api/recipes/:id` | Update an existing recipe |
+| **DELETE** |   `/api/recipes/:id` | Remove a recipe by ID |
+
+
+
+## 🛠️ Local Setup & Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone <your-github-repository-url>
+   cd recipe-task

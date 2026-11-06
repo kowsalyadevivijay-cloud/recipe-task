@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Management API</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; background: #0f172a; color: #f8fafc; }
+        h1 { color: #38bdf8; }
+        .endpoint { background: #1e293b; padding: 15px; margin: 10px 0; border-radius: 8px; border-left: 4px solid #38bdf8; }
+        code { background: #334155; padding: 2px 6px; border-radius: 4px; color: #cbd5e1; }
+    </style>
+</head>
+<body>
+    <h1>🍳 Recipe Management REST API</h1>
+    <p>Welcome to the Recipe App Backend service built with Node.js, Express, and Mongoose following the MVC architecture.</p>
+    
+    <h3>Available API Endpoints:</h3>
+    <div class="endpoint">
+        <strong>GET</strong> <code>/api/recipes</code> - Retrieve all recipes
+    </div>
+    <div class="endpoint">
+        <strong>GET</strong> <code>/api/recipes/:id</code> - Retrieve a single recipe by ID
+    </div>
+    <div class="endpoint">
+        <strong>POST</strong> <code>/api/recipes</code> - Create a new recipe
+    </div>
+    <div class="endpoint">
+        <strong>PUT</strong> <code>/api/recipes/:id</code> - Update a recipe by ID
+    </div>
+    <div class="endpoint">
+        <strong>DELETE</strong> <code>/api/recipes/:id</code> - Delete a recipe by ID
+    </div>
+</body>
+</html>
